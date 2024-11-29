@@ -1,0 +1,98 @@
+/*body tag*/
+body{
+    margin:0px;
+
+}
+
+/*every element in html*/
+*{
+    box-sizing: border-box;
+}
+
+/*1 rem=16px*/
+.tool-img{
+    height: 4rem;
+}
+
+
+
+.close{
+    display: flex;
+    gap: 2rem;
+    height: 4rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    
+}
+
+.close:hover{
+    background-color: lightgrey;
+}
+
+.hidden{
+    display: none;
+}
+.tool:hover{
+    background-color: lightgrey;
+}
+.toolbar-options{
+    display: flex;
+}
+
+.toolbar{
+    display: flex;
+    justify-content: center ;
+    gap: 2rem;
+}
+
+.tool{
+    display: flex;
+    gap:5px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+     padding: 0.25rem 0.25rem;
+}
+
+.sticky{
+    height:10rem;
+    width: 6rem;
+    position: absolute;
+    left: 40vw;
+    top: 40vh;
+}
+
+.nav{
+    border: 1px solid black;
+    height: 20%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+    gap:1rem;
+}
+
+.text-area{
+    height: 80%;
+    width: 100%;
+}
+
+.input-tag{
+    display: none;
+
+}
+
+.upload-img{
+    height: 80%;
+    width: 100%;
+
+}
+
+input[type="range"]{
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+}
+

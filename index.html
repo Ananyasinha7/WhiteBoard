@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toolbar">
+    
+        <div class="close" >
+            <img src="Icons/CloseButton.svg">
+         </div>
+     
+        <div class="toolbar-options"></div>
+       
+        <div class="tool" id="pen">
+            <img src="./Icons/pen-tool-icon.svg" class="tool-img" alt="">
+            <input type="range" id="pen-size-slider" min="1" max="50" value="5">
+        
+        </div>
+        <div class="tool" id="eraser">
+            <img src="./Icons/Eraser.svg" class="tool-img"alt="">
+            <input type="range" id="eraser-size-slider" min="1" max="50" value="5">
+        </div>
+        <div class="tool" id="sticky">
+            <img src="./Icons/StickyNote.svg" class="tool-img"alt="" >
+        </div>
+        <div class="tool" id="image">
+            <img src="./Icons/Photo.svg"class="tool-img" alt="" >
+            
+        </div>
+        <div class="tool" id="download">
+            <img src="./Icons/Download.svg" class="tool-img"alt="" >
+        </div>
+        <div class="tool" id="undo">
+            <img src="./Icons/Undo.svg" class="tool-img"alt="">
+        </div>
+        <div class="tool" id="redo">
+            <img src="./Icons/Redo.svg" class="tool-img" alt="">
+        </div>
+        <input type="file" class="input-tag">
+    </div>
+    <!--canvas-->
+    <canvas id="board"></canvas>
+    <script src="tools.js"></script>
+</body>
+</html>
+
